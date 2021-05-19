@@ -1,0 +1,31 @@
+@page "/counter"
+@using Xamarin.Essentials
+
+<h1>Counter</h1>
+
+<p>Current count: @Value</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+<h3>@Message</h3>
+
+@code {
+
+    public int Value { get; set; }
+
+    public string Message { get; set; }
+
+    public void IncrementCount()
+    {
+        Value++;
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        var contact = await Xamarin.Essentials.Contacts.PickContactAsync();
+
+        Message = $"Contact: {contact.DisplayName}";
+
+        base.OnInitialized();
+    }
+}

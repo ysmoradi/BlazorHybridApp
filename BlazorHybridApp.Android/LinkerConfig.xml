@@ -1,0 +1,43 @@
+﻿<linker>
+
+	<assembly fullname="Microsoft.Extensions.Hosting">
+		<type fullname="*" />
+	</assembly>
+	<assembly fullname="Microsoft.Extensions.Logging">
+		<type fullname="*" />
+	</assembly>
+	<assembly fullname="Microsoft.Extensions.Logging.Console">
+		<type fullname="*" />
+	</assembly>
+	<assembly fullname="Microsoft.Extensions.Options">
+		<type fullname="*" />
+	</assembly>
+	<assembly fullname="Microsoft.Extensions.Logging.Configuration">
+		<type fullname="*" />
+	</assembly>
+	<assembly fullname="Microsoft.Extensions.Logging.Debug">
+		<type fullname="*" />
+	</assembly>
+	<assembly fullname="Microsoft.Extensions.Logging.EventSource">
+		<type fullname="*" />
+	</assembly>
+	<assembly fullname="BlazorHybridApp.Android">
+		<type fullname="*" />
+	</assembly>
+	<assembly fullname="BlazorHybridApp">
+		<type fullname="*" />
+	</assembly>
+	<assembly fullname="Microsoft.AspNetCore.Components.Web">
+		<type fullname="*" />
+	</assembly>
+	<assembly fullname="Microsoft.AspNetCore.Components">
+		<type fullname="*" />
+	</assembly>
+	<assembly fullname="Microsoft.MobileBlazorBindings.WebView">
+		<type fullname="*" />
+	</assembly>
+	<assembly fullname="Microsoft.MobileBlazorBindings">
+		<type fullname="*" />
+	</assembly>
+
+</linker>
